@@ -1,0 +1,5 @@
+"Hello, if you have updated this package, you might notice two folders named Fake Mist and Fake Fog. This happens because the older version of the package used the folder name Fake Mist, while the updated version uses Fake Fog. If both folders appear, please delete the Fake Mist folder. We sincerely apologize for any confusion or inconvenience this might cause.
+
+Please note that the vegetation assets shown in the thumbnails are not included in this package; they are used purely for rendering demonstrations. However, these vegetation assets are free and belong to The Toby Foliage Engine/Light. We encourage you to explore those assets if you're interested.
+
+This package itself is completely free to use, and we hope it proves valuable for your projects. Thank you for your understanding and support!

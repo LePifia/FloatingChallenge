@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Scripts/Editor/EditorWindow/TaskList.uss?fileID=7433441132597879392&amp;guid=3f52659560b9d9c40be8a4facfc3defa&amp;type=3#TaskList" />
+    <ui:VisualElement name="LoadingTasks" class="container" style="flex-grow: 0; height: -253px;">
+        <uie:ObjectField label="Load Saved Tasks&#10;" name="SaveTaskObjectField" />
+        <ui:Button text="Load Tasks" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LoadTaskButton" class="button" />
+    </ui:VisualElement>
+    <ui:VisualElement name="SearchingTasks" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Search" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SearchHeader" class="header highlight" />
+        <uie:ToolbarSearchField name="SearchBox" class="container" style="align-self: center; align-items: stretch; width: 90%;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="AddingTasks" class="container" style="flex-grow: 0; align-self: flex-start; width: 100%; flex-wrap: nowrap; align-items: stretch; justify-content: flex-start; flex-direction: row; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px;">
+        <ui:TextField picking-mode="Ignore" value="Add New Task" name="TaskText" style="width: 80%;" />
+        <ui:Button text="Add" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddTask" class="background" style="width: 20%;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="AddingInformation" class="container" style="flex-grow: 0; align-self: flex-start; width: 100%; flex-wrap: nowrap; align-items: stretch; justify-content: flex-start; flex-direction: row; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px;">
+        <ui:TextField picking-mode="Ignore" value="Add New Information" name="TaskInformation" style="width: 80%;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="DisplayingTasks" class="container expand" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Current Tasks" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header button" style="align-items: stretch; align-self: center; justify-content: flex-start;" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="TaskLIst" class="expand border container" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; align-self: stretch; justify-content: center; align-items: center; -unity-text-align: upper-center;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="TrackingTasks" class="container" style="flex-grow: 0;">
+        <ui:Button text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SaveProgressButton" class="button" />
+        <ui:Label tabindex="-1" text="Progress" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header button" style="margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; align-self: center;" />
+        <ui:ProgressBar value="0" title="---  %" name="TaskProgressBar" high-value="1" />
+    </ui:VisualElement>
+    <ui:VisualElement name="NotificationSection" class="container" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NotificationLabel" class="border notification" />
+    </ui:VisualElement>
+</ui:UXML>

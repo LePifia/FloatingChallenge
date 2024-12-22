@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f103b95a819b7a94e84f259b6e469cf0
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181716
+  packageName: Hey Area Object Spawner
+  packageVersion: 1.4
+  assetPath: Assets/JSGames/HeyAreaSpawner/Materials/SphereShader.shader
+  uploadId: 611611

@@ -1,0 +1,56 @@
+.container {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 2.5px;
+    margin-left: 2.5px;
+}
+
+.button {
+    margin-top: -5px;
+    margin-right: -5px;
+    min-height: 40px;
+}
+
+.header {
+    -unity-font: resource('fonts/TextMesh Pro/Examples & Extras/Fonts/Anton');
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+}
+
+.background {
+    background-color: rgb(83, 125, 84);
+}
+
+.expand {
+    flex-grow: 1;
+}
+
+.border {
+    border-left-color: rgb(89, 125, 92);
+    border-right-color: rgb(89, 125, 92);
+    border-top-color: rgb(89, 125, 92);
+    border-bottom-color: rgb(89, 125, 92);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.highlight {
+    background-color: rgb(115, 92, 65);
+    width: 90%;
+    align-self: center;
+}
+
+.notification {
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    -unity-text-align: upper-center;
+    font-size: 10px;
+}

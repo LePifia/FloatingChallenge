@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 99c96f2557557d240b7a5ec9a45efd5e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181716
+  packageName: Hey Area Object Spawner
+  packageVersion: 1.4
+  assetPath: Assets/JSGames/HeyAreaSpawner/Scripts/SpawnObjectProperty.cs
+  uploadId: 611611

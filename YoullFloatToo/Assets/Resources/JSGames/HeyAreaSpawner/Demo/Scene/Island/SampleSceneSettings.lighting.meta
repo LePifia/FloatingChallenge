@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c15a948dc3aff374fa6966f3a37da32e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181716
+  packageName: Hey Area Object Spawner
+  packageVersion: 1.4
+  assetPath: Assets/JSGames/HeyAreaSpawner/Demo/Scene/Island/SampleSceneSettings.lighting
+  uploadId: 611611
