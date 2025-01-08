@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using CandyCoded.HapticFeedback;
+//using CandyCoded.HapticFeedback;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -24,15 +24,15 @@ public class UIButton : MonoBehaviour
                 SoundManager.instance.PlaySound(clickSound);
             if (useVibration)
             {
-                if (SoundManager.instance.IsHapticsOff() == false) 
-                { HapticFeedback.LightFeedback(); }
+                /*if (SoundManager.instance.IsHapticsOff() == false) 
+                { HapticFeedback.LightFeedback(); }*/
             }
         }
         else{
             SoundManager.instance.PlayRandomSound();
             if (useVibration){
-                if (SoundManager.instance.IsHapticsOff() == false) 
-                { HapticFeedback.LightFeedback(); }
+                /*if (SoundManager.instance.IsHapticsOff() == false) 
+                { HapticFeedback.LightFeedback(); }*/
             }
         }
         
